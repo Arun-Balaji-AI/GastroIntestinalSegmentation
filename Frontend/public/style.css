@@ -1,0 +1,56 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed cadetblue;
+  border-radius: 5px;
+  height: 400px;
+  width: 600px;
+  cursor: pointer;
+}
+
+.uploaded-proof {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: medium;
+}
+
+.image-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-button > button {
+  height: 3rem;
+  width: 7rem;
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+}
+
+.result-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+}
+
+.result {
+  border-radius: 5px;
+}
