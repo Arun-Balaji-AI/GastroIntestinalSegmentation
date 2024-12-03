@@ -12,7 +12,7 @@
 
 ### Architecture
 
-![Working Architecture](images\App Working.png)
+![image](./images/App%20Working.png)
 
 ### How to run
 
