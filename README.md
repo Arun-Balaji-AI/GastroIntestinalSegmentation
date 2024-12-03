@@ -1,7 +1,6 @@
-## Gastro Intestinal Organ Segmentation
+## Gastro Intestinal Organ Segmentation🏥
 
-- Hi guys, this project is about segmenting the CT/MRI scans of gastro-intestinal cancer patient's abdomen.
-- This project uses U-Net model to segment the scan images.
+Hi guys👋, this project is about segmenting the CT/MRI scans of gastro-intestinal cancer patient's abdomen. This project uses U-Net model to segment the scan images.
 
 ### Tech Stack
 
@@ -10,11 +9,11 @@
 - Flask
 - U-Net Architecture
 
-### Architecture
+### Architecture🏗️
 
 ![image](./images/App%20Working.png)
 
-### How to run
+### How to run🚀
 
 - Clone the repository
 - Install the dependencies in a virtual environment(Python dependencies) and make sure the system has node installed.
