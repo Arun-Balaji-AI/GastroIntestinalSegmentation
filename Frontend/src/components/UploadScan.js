@@ -58,10 +58,16 @@ function UploadScan() {
         <h4 className="uploaded-proof">Not Selected File</h4>
       )}
 
-      <div className="image-button">
-        <button type="submit" onClick={uploadImage}>
-          Upload Scan
-        </button>
+      <div className="button-manager">
+        <div className="image-button">
+          <button type="submit" onClick={uploadImage}>
+            Upload Scan
+          </button>
+        </div>
+
+        <div className="chatbot">
+          <button type="button">Chat</button>
+        </div>
       </div>
       {result && (
         <div className="result-image">

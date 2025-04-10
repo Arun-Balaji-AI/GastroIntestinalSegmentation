@@ -6,6 +6,19 @@ body {
   align-items: center;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+#page_header {
+  width: 80%;
+  max-width: 1200px;
+  text-align: center;
+  justify-content: center;
+  margin-left: 4rem;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -25,9 +38,27 @@ form {
   font-size: medium;
 }
 
-.image-button {
+.button-manager {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatbot {
+  justify-content: center;
+  align-items: center;
+  padding-left: 3rem;
+}
+
+.chatbot > button {
+  height: 3rem;
+  width: 7rem;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.image-button {
   justify-content: center;
   align-items: center;
 }
